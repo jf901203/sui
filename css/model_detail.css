@@ -1,0 +1,41 @@
+
+
+.model_detail{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 135px;
+    padding-bottom: 85px;
+}
+
+.model_detail-content{
+    width: 100%;
+
+}
+.model_detail-content-title{
+    text-align: center;
+     
+}
+.model_detail-content-ch{
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(../img/company05.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.model_detail-content-en{
+    font-size: 16px;
+    color: #f7bb3c;
+    line-height: 48px;
+}
+.model_detail-desc p{
+   font-size: 16px;
+   line-height: 30px;
+   text-indent: 30px;
+   margin-bottom: 25px;
+}
+.model_detail-avator{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+}

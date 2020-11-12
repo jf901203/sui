@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    * {
+	margin: 0;
+	padding: 0;
+}
+/*必须固定宽度*/
+
+ 
+/*必须固定宽度*/
+/*3行*/
+ 
+.line3 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+/*固定宽度*/
+ 
+.w100 {
+	width: 100px;
+}
+
+</style>
+</head>
+<body>
+        <div style="width: 110px;margin: 50px auto 0;">
+                	
+                <!--3行-->
+                <p class="w100 line3" style="background: blue;color: #fff;margin-top: 50px;">
+                    我很酷我很酷我很酷我很酷我很酷我很酷我很酷我很酷我很酷我很酷我很酷我很酷我很酷我很酷我很酷我很酷我很酷我很酷
+                </p>	
+            </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+
+
+
+.solve_detial{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.solve_detial-content-title{
+   text-align: center;
+}
+
+.solve_detial-content-title-ch{
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(../img/company03.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.solve_detial-content-title-en{
+    font-size: 24px;
+    line-height: 35px;
+    color: #f7b52b;
+    margin-bottom: 70px;
+    margin-top: 15px;
+    
+}
+
+
+.solve_detial-content-item{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.solve_detial-content-item-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.solve_detial-content-item-desc{
+    font-size: 16px;
+    line-height: 30px;
+    margin: 30px 0px 50px;
+    text-align: center;
+}
+
+
+.solve_detial-content-item-avator{
+    text-align: center;
+}
+
+.solve_detial-content-item-avator img{
+
+    max-width: 100%;
+}

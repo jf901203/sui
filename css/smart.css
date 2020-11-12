@@ -1,0 +1,87 @@
+
+.smart{
+    width: 100%;
+}
+
+.smart-content{
+    width: 1200px;
+    margin:0 auto;
+    padding-top:100px;
+}
+.smart-title{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.smart-title-ch{
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(../img/company03.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.smart-title-en{
+    font-size: 16px;
+    color: #f7bb3c;
+    line-height: 48px;
+}
+.smart-desc{
+    width: 100%;
+    height: 760px;
+    background-image: url(../img/smart-desc.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    border:1px solid blue;
+}
+
+.smart-desc-title{
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.smart-desc-title span{
+    color: #eeb032;
+}
+.smart-desc-descript{
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.smart-desc{
+    width: 100%;
+ 
+}
+
+.smart-desc-item{
+  
+
+}
+
+.item01{
+ width: 390px
+}
+.item02{
+    width: 450px
+}
+.item03{
+    width: 390px
+   
+}
+.item04{
+    width: 405px
+}
+.item05{
+    width: 405px
+   
+}
+   
+.item06{
+
+    width: 390px
+   
+}
+.item07{
+    width: 450px
+}

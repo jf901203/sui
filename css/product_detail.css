@@ -1,0 +1,58 @@
+
+
+.product_detail{
+    width: 100%;
+}
+.product_detail-content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.product_detail-title{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.product_detail-title-ch{
+    background-image: url(../img/company02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.product_detail-title-en{
+    color: #f7b52b;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.product_detail-content-item{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.product_detail-content-item h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.product_detail-content-item p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    text-indent: 20px;
+}
+
+.product_detail-content-item-avator{
+   
+   text-align: center;
+ 
+}
+
+.product_detail-content-item-avator img{
+    width: 780px;
+
+}

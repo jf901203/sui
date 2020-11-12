@@ -1,0 +1,285 @@
+
+.electron{
+    width: 1900px;
+    background-color: #fff;
+}
+.user{
+    width: 1200px;
+    margin:0 auto;
+    padding-bottom: 100px;
+}
+.user-title{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.user-title-ch{
+    font-size: 32px;
+    color:#000;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.user-title-en{
+    font-size: 24px;
+    color: #f8c058;
+}
+.user-avator{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.user-avator > div{
+    flex-basis: 33%;
+}
+.user-avator > div:nth-of-type(2){
+    margin: 0 60px;
+}
+.avator-items{
+    width: 100%;
+    display: flex;
+    text-justify: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avator-items img{
+    width: 357px;
+    height: 438px;
+    margin-bottom: 35px;
+}
+.avator-items p{
+    font-size: 20px;
+}
+
+/* system */
+
+.system{
+    width: 1200px;
+    margin:0 auto;  
+}
+
+.system-title{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 75px;
+}
+.system-title-ch{
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.system-title-en{
+    font-size: 24px;
+    color: #f8c058;
+}
+.system-bg{
+    width: 1900px;
+    background-image: url(../img/system-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 566px;
+    padding: 60px 0px 55px;
+    box-sizing: border-box;
+}
+.system-bg-title{
+   width: 1200px;
+   margin: 0 auto;
+}
+.system-list{
+    margin: 0;
+    padding: 0;
+}
+.system-list-itmes{
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.system-list-itmes h1{
+    font-size: 20px;
+    color:#fff;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.system-list-itmes p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+}
+
+/* structure */
+
+.structure{
+    width: 1200px;
+    margin:0 auto;
+    padding-bottom: 100px;
+    padding-top: 150px;
+}
+
+.structure-title{
+    text-align: center;
+
+}
+.structure-title-ch{
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.structure-title-en{
+    font-size: 24px;
+    color: #f8c058;
+}
+.structure-title-desc{
+    max-width: 963px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 47px;
+    margin-bottom: 76px;
+}
+.structure-item{
+    width: 100%;
+}
+.structure-item > div{
+    margin-bottom: 5px;;
+}
+.structure-icon-01{
+    width: 100%;
+    height: 182px;
+    background-image: url(../img/structure01.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.structure-icon-01-left{
+    width: 385px;
+    height: 182px;
+    position: relative;
+}
+.structure-icon-01-left p{
+   position: absolute;
+   right:70px;
+   bottom: 39px;
+   font-size: 20px;
+   color: #fff;
+}
+.structure-icon-01-right{
+    max-width: 750px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.structure-icon-01-right p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.structure-icon-02{
+    width: 100%;
+    height: 107px;
+    background-image: url(../img/structure02.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.structure-icon-02-left{
+    width: 446px;
+    height: 117px;
+    position: relative;
+}
+.structure-icon-02-left p{
+    position: absolute;
+    right:113px;
+    bottom: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+.structure-icon-02-right{
+    max-width: 700px;
+}
+.structure-icon-02-right p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.structure-icon-03{
+    width: 100%;
+    height: 104px;
+    display: flex;
+    background-image: url(../img/structure03.jpg);
+    background-repeat: no-repeat;
+}
+.structure-icon-03-left{
+    width: 506px;
+    height: 112px;
+    position: relative;
+}
+.structure-icon-03-left p{
+    position: absolute;
+    right: 200px;
+    bottom: 36px;
+    color: #fff;
+    font-size: 20px;
+}
+.structure-icon-03-right{
+    max-width: 640px;
+}
+.structure-icon-03-right p{
+    font-size: 20px;
+    line-height: 112px;
+}
+.structure-icon-04{
+    width: 100%;
+    height: 90px;
+    background-image: url(../img/structure04.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.structure-icon-04-left{
+    position: relative;
+    width: 560px;
+    height: 90px;
+
+}
+
+.structure-icon-04-left p{
+     position: absolute;
+     right: 245px;
+     bottom: 30px;
+     font-size: 20px;
+     color: #fff;
+}
+.structure-icon-04-right{
+    max-width: 580px;
+}
+.structure-icon-04-right p{
+   
+    line-height: 90px;
+    font-size: 20px;
+
+}
+
+/* basic */
+
+.basic{
+    width: 1200px;
+    margin: 0 auto;
+}
+.basic-title{
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.basic-title-ch{
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.basic-title-en{
+    font-size: 24px;
+    line-height: 20px;
+    color: #f8c058;
+}
+
+.basic-table{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 55px;
+     
+}

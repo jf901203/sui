@@ -1,0 +1,269 @@
+.about{
+    width: 100%;
+}
+.about-content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.about-title{
+    text-align: center;
+}
+
+.about-title-ch{
+    background-image: url(../img/company.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 28px;
+    font-weight: bold;
+}
+.about-title-en{
+    color: #f7b52b;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.about-desc p{
+    font-size: 16px;
+    line-height: 36px;
+    text-indent: 40px;
+}
+
+
+
+/* about_banner */
+.about_banner{
+    width: 100%;
+}
+
+
+
+
+.certificate-banner{
+    width: 100%;
+    position: relative;
+}
+
+.swiper4 {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+  }
+
+ 
+.slide-itme {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms;
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  
+.swiper-slide-active,.swiper-slide-duplicate-active{
+    transform: scale(1);
+    opacity:1;
+     }
+
+.slide-itme img{
+    width: 100%;
+}
+
+
+/* history */
+
+
+.banner{
+    width: 100%;
+}
+.swiper-container{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.history{
+    width: 100%;
+    background-image: url(../img/history_01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.history-title{
+    width: 1200px;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.history-title-ch{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(../img/company01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.history-title-en{
+    font-size: 16px;
+    color: #fff;
+}
+
+.history-content{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.swiper-slide{
+   color: #fff;
+}
+
+.prev{
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    left: 90px;
+    transform:rotate(-90deg);
+}
+
+.next{
+    transform:rotate(-90deg);
+    top: 20%;
+    left: 90px;
+    color: #fff;
+}
+
+.swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 6px 0px;
+    display: block;
+    width: 200px;
+    background: transparent;
+    border-radius: 0px;
+    padding: 10px 0px;
+    height: 50px;
+    color: #6e819e;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.swp3{
+    left: 0;
+}
+
+.swiper-pagination-bullet-active{
+    color: #333333 !important;
+}
+.swiper-slide{
+    position: relative;
+   
+}
+.slide-avator{
+    width: 790px;
+    position: absolute;
+    top: 50%;
+    right: -35%;
+    transform: translate(-50%,-50%);
+   
+}
+.slide-img-desc{
+    color: #333333;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+
+/* contact */
+
+
+.contact{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-title{
+    width: 1200px;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contact-title-ch{
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(../img/company.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact-title-en{
+    font-size: 16px;
+    color: #f7b52b;
+    line-height: 45px;
+}
+.contact-map{
+    width: 100%;
+    display: flex;
+    padding-top: 45px;
+    padding-bottom: 150px;
+}
+.map{
+    width:620px;
+    height:365px;
+    border:#ccc solid 1px;
+    font-size:12px;
+    border:#ccc solid 1px;
+    
+}
+
+.contact-adress{
+    flex: 1;
+    background: #5760ab;
+    padding-left: 45px;
+    padding-right: 145px;
+    box-sizing: border-box;
+
+}
+.adress-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 45px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.list-items{
+    font-size: 20px;
+    color: #fff;
+    line-height: 60px;
+    position: relative;
+}
+
+.items-icon{
+    position: absolute;
+    left: -73px;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #555ea9;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    width: 28px;
+    height: 28px;
+    background: #555ea9;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 50%;
+}

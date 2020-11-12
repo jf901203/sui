@@ -1,0 +1,41 @@
+.system{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+
+.system-title{
+    text-align: center;
+    margin-top: 30px;
+}
+.system-title-ch{
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(../img/company03.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.system-title-en{
+    font-size: 16px;
+    color: #f7bb3c;
+    line-height: 48px;
+}
+
+.system-desc{
+    text-align: center;
+    padding: 60px 0px 80px;
+}
+.system-desc-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.system-desc-desc{
+    font-size: 16px;
+    line-height: 30px;
+    
+}
+.system-desc-avator{
+    padding-top: 60px;
+}

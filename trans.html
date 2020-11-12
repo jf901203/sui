@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鼠标悬停边框动画</title>
+    <style>
+        .main{
+            width: 500px;
+            margin: auto;
+            padding: 20px;
+        }
+        .div_btn{
+            border: 1px solid #CDCDCD;
+            padding: 10px 20px;
+            margin: 20px;
+            line-height: 40px;
+            color: #333;
+            width: max-content;
+            cursor: pointer;
+            transition: all .8s;
+            position: relative;
+            box-sizing: border-box;
+ 
+        }
+        .div_btn:before,.div_btn:after{
+            position: absolute;
+            width: 0;
+            height: 0;
+            content: ' ';
+            border: 1px solid transparent;
+            box-sizing: border-box;
+        }
+        .div_btn::before{
+            left: 0;
+            top: 0;
+        }
+        .div_btn::after{
+            right: 0;
+            bottom: 0;
+        }
+ 
+        .div_btn:hover{
+            border-color: #1769ff;
+            color: #1769ff;
+        }
+ 
+        /* 第一种效果 */
+        .one::before,.one::after{
+            -webkit-transition: height 0.2s ease-out, width 0.2s ease-out 0.2s,border-color 0.4s ease-in;
+            transition:  height 0.2s ease-out, width 0.2s ease-out 0.2s,border-color 0.4s ease-in;
+        }
+        .one:hover::before,.one:hover::after{
+            width: 100%;
+            height: 100%;
+            -webkit-transition: border-color 0.4s ease-in,width 0.2s ease-out,height 0.2s ease-out 0.2s;
+            transition: border-color 0.4s ease-in,width 0.2s ease-out,height 0.2s ease-out 0.2s;
+        }
+        .one:hover::before{
+            border-top-color: #1769ff;
+            border-right-color: #1769ff;
+        }
+        .one:hover::after{
+            border-bottom-color: #1769ff;
+            border-left-color: #1769ff;
+ 
+        }
+        /* 第二种效果 */
+        .div_btn.two:before{
+            -webkit-transition: border-color 0s ease-in 0.8s,width 0.2s ease-in 0.6s,height 0.2s ease-in 0.4s;
+            transition: border-color 0s ease-in 0.8s,width 0.2s ease-in 0.6s,height 0.2s ease-in 0.4s;
+        }
+        .div_btn.two:after{
+            -webkit-transition: border-color 0.4s ease-in,width 0.2s ease-in 0.2s,height 0.2s ease-in;
+            transition: border-color 0.4s ease-in,width 0.2s ease-in 0.2s,height 0.2s ease-in;
+        }
+        .two:hover::before,.two:hover::after{
+            width: 100%;
+            height: 100%;
+            
+        }
+        .two:hover::before{
+            border-top-color: #1769ff;
+            border-right-color: #1769ff;
+            -webkit-transition: border-color 0.4s ease-out, width 0.2s ease-out,height 0.2s ease-out 0.2s;
+            transition: border-color 0.4s ease-out, width 0.2s ease-out,height 0.2s ease-out 0.2s;
+        }
+        .two:hover::after{
+            border-bottom-color: #1769ff;
+            border-left-color: #1769ff;
+            -webkit-transition: border-color 0s ease-out 0.4s,width 0.2s ease-out 0.4s,height 0.2s ease-out 0.6s;
+            transition: border-color 0s ease-out 0.4s,width 0.2s ease-out 0.4s,height 0.2s ease-out 0.6s;
+ 
+        }
+ 
+        /* 第三个 */
+        .div_btn.three:before,.div_btn.three::after{
+            left: 0;
+            top: 0;
+        }
+        .div_btn.three:before{
+            -webkit-transition: height 0.2s ease-out, width 0.2s ease-out 0.2s,border-color 0.4s ease-in;
+            transition:  height 0.2s ease-out, width 0.2s ease-out 0.2s,border-color 0.4s ease-in;
+        }
+        .div_btn.three:after{
+            -webkit-transition: width 0.2s ease-out, height 0.2s ease-out 0.2s,border-color 0.4s ease-in;
+            transition:  width 0.2s ease-out, height 0.2s ease-out 0.2s,border-color 0.4s ease-in;
+        }
+        .three:hover::before,.three:hover::after{
+            width: 100%;
+            height: 100%;
+           
+        }
+        .three:hover::before{
+            border-top-color: #1769ff;
+            border-right-color: #1769ff;
+            -webkit-transition: border-color 0.4s ease-in,width 0.2s ease-out,height 0.2s ease-out 0.2s;
+            transition: border-color 0.4s ease-in,width 0.2s ease-out,height 0.2s ease-out 0.2s;
+        }
+        .three:hover::after{
+            border-bottom-color: #1769ff;
+            border-left-color: #1769ff;
+            -webkit-transition: border-color 0.4s ease-in,height 0.2s ease-out , width 0.2s ease-out  0.2s;
+            transition: border-color 0.4s ease-in,height 0.2s ease-out , width 0.2s ease-out  0.2s;
+        }
+ 
+ 
+        /* 第四种鼠标悬停样式 */
+        .div_btn.four:before{
+            width: 100%;
+            left: 0;
+            top: 50%;
+            -webkit-transition: height 0.4s ease-out, top 0.4s ease-out, border-color 0.4s ease-in;
+            transition:  height 0.4s ease-out, top 0.4s ease-out, border-color 0.4s ease-in;
+        }
+        .div_btn.four::after{
+            height: 100%;
+            top: 0;
+            left: 50%;
+            -webkit-transition: left 0.4s ease-out, width 0.4s ease-out,border-color 0.4s ease-in;
+            transition:  left 0.4s ease-out, width 0.2s ease-out,border-color 0.4s ease-in;
+        }
+        .four:hover::before{
+            height: 100%;
+            top: 0;
+            border-left-color: #1769ff;
+            border-right-color: #1769ff;
+            -webkit-transition: border-color 0.4s ease-in,height 0.4s ease-in, top 0.4s ease-in;
+            transition: border-color 0.4s ease-in,height 0.4s ease-in, top 0.4s ease-in;
+        }
+        .four:hover::after{
+            width: 100%;
+            left: 0;
+            border-bottom-color: #1769ff;
+            border-top-color: #1769ff;
+            -webkit-transition: border-color 0.4s ease-in,width 0.4s ease-in, left 0.4s ease-in;
+            transition: border-color 0.4s ease-in,width 0.4s ease-in, left 0.4s ease-in;
+        }
+ 
+        /* 第五个 */
+        .div_btn.five{
+            width: 150px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .div_btn.five:before,.div_btn.five::after{
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .five:hover::before{
+            border-top-color: #1769ff;
+            border-right-color: #1769ff;
+            border-bottom-color: #1769ff;
+            -webkit-transition: border-top-color 0.2s linear, border-right-color 0.2s linear 0.2s, border-bottom-color 0.2s linear 0.4s;
+            transition: border-top-color 0.2s linear, border-right-color 0.2s linear 0.2s, border-bottom-color 0.2s linear 0.4s;
+        }
+        .div_btn.five:hover::after{
+            z-index: 10;
+            border-top-color: #1769ff;
+            -webkit-transform: rotate(270deg);
+            transform: 270deg;
+            transition: transform .6s linear;
+            -webkit-transform: -webkit-transform .6s linear;
+        }
+ 
+        /* 第六种 第六种在第五中的基础上做一个圆角就可以了，但是five transition border-top-color 0.2s linea 有一个0.2秒的缓冲导致衔接效果不好，并且特别明显，所以单独开写，真是浪费代码 嗷呜，也方便以后需要的时候只需copy对应的six就可以  */
+ 
+        .div_btn.six{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .div_btn.six::before,.div_btn.six::after{
+            border-radius: 50%;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+ 
+        .six:hover::before{
+            border-top-color: #1769ff;
+            border-right-color: #1769ff;
+            border-bottom-color: #1769ff;
+            -webkit-transition: border-top-color 0s linear, border-right-color 0s linear 0.2s, border-bottom-color 0s linear 0.4s;
+            transition: border-top-color 0 linear, border-right-color 0 linear 0.2s, border-bottom-color 0 linear 0.4s;
+        }
+        .div_btn.six:hover::after{
+            z-index: 10;
+            border-top-color: #1769ff;
+            -webkit-transform: rotate(270deg);
+            transform: 270deg;
+            transition: transform .6s linear;
+            -webkit-transform: -webkit-transform .6s linear;
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="div_btn one">
+            鼠标hover事件
+        </div>
+ 
+        <div class="div_btn two">
+            鼠标hover事件
+        </div>
+ 
+        <div class="div_btn three">
+            鼠标hover事件
+        </div>
+ 
+        <div class="div_btn four">
+            鼠标hover事件
+        </div>
+ 
+        <!-- 第五种纯属就是为第六种做铺垫 -->
+        <div class="div_btn five">
+            鼠标hover事件
+        </div>
+ 
+        <div class="div_btn six">
+            鼠标hover事件<br>
+            效果衔接嫌弃
+        </div>
+ 
+    </div>
+</body>
+</html>
+ 

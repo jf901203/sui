@@ -1,0 +1,401 @@
+
+
+.government{
+    width: 100%;
+    
+}
+.government-content{
+    width: 1200px;
+    margin:0 auto;
+}
+
+.design{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+.design-title-ch{
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(../img/company.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.design-title-en{
+    font-size: 16px;
+    color: #f7bb3c;
+    line-height: 48px;
+}
+
+.design-icon{
+    width: 100%;
+    padding: 50px 0px 70px;
+    display: flex;
+    padding-bottom: 70px;
+}
+.design-icon-item{
+   flex-basis: 25%;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+.design-icon-item:not(:last-child):after{
+    position: absolute;
+    top:0;
+    right: 0;
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 30px;
+    background: #dcdcdc;
+  
+}
+
+.design-icon-item-desc{
+    max-width: 210px;
+    
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    white-space:pre-wrap;
+    margin-top: 30px;
+}
+
+/* architecture */
+
+.architecture-title{
+    text-align: center;
+}
+.architecture-title-ch{
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(../img/company.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.architecture-title-en{
+    font-size: 16px;
+    color: #f7bb3c;
+    line-height: 48px;
+}
+
+.architecture-desc{
+    width: 100%;
+    margin: 70px 0px 80px;
+}
+
+.architecture-desc p{
+    text-indent: 30px;
+    line-height: 30px;
+}
+
+.architecture-avator{
+    width: 100%;
+    display: flex;
+}
+.architecture-avator-img{
+    flex-basis: 800px;
+}
+.architecture-avator-img img{
+    width: 100%;
+}
+.architecture-avator-text{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+}
+
+.architecture-avator-des{
+    background: #555ca2;
+    padding: 50px 28px 40px 30px;
+    box-sizing: border-box;
+
+}
+.architecture-avator-des h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.architecture-avator-des p{
+
+    white-space:pre-wrap;
+    max-width: 370px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.architecture-avator-link{
+    margin-top: 50px;
+}
+
+.architecture-avator-link a{
+    padding: 15px 45px;
+    color: #fff;
+    background: #555ca2;
+    
+}
+
+/* show */
+
+.viewshow{
+    width: 100%;
+    background-image: url(../img/viewshow.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 554px;
+    position: relative;
+    
+}
+
+.viewshow-banner{
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+  
+}
+.swiper2{
+    width: 1200px;
+    margin: 0 auto;
+   
+}
+.swiper-slide{
+    display: flex;
+    width: 100%;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+.viewshow-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.viewshow-title-flex{
+  
+    background-color: #fff4ee;
+    padding: 35px 30px 70px;
+    width: 619px;
+}
+
+.viewshow-title-flex h1{
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0;
+}
+.viewshow-title-flex p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.detail{
+    text-decoration: none;
+    color: #1c74db;
+    height: 50px;
+    width: 154px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 25px;
+    font-size: 16px;
+}
+.detail:hover{
+    text-decoration: none;
+    color: #1c74db;
+}
+.viewshow-avator{
+    width: 582px;
+    height: 451px;
+}
+.viewshow-avator img{
+    width: 100%;
+    height: 100%;
+}
+
+.button-prev,.button-next{
+  position: absolute;
+  top: 50%;
+  width: 27px;
+  height: 44px;
+  margin-top: -22px;
+  z-index: 10px;
+  cursor: pointer;
+  background-size: 27px 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline:none;
+  color: #fff;
+ 
+}
+
+.button-prev{
+    left:10px;
+}
+.button-next{
+    right: 10px;
+}
+
+/* data */
+
+.data{
+    width: 1200px;
+    margin:0 auto;
+    padding: 100px 0px;
+}
+.data-title{
+    text-align: center;
+  
+}
+.data-title-ch{
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(../img/company.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.data-title-en{
+    font-size: 16px;
+    color: #f7bb3c;
+    line-height: 48px;
+}
+
+.data-avator{
+    width: 100%;
+}
+.data-avator-item{
+    width: 100%;
+    display: flex;
+    padding: 50px 0px;
+    justify-content: space-between;
+}
+
+.data-avator-item-desc{
+    flex-basis: 666px;
+}
+
+.data-avator-item-desc h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.data-avator-item-desc p{
+    font-size: 16px;
+    line-height: 30px;
+    white-space: pre-wrap;
+    text-indent: 30px;
+}
+.data-avator-item-img{
+    flex-basis:520px;
+}
+.data-avator-item-img img{
+    width: 100%;
+}
+.data-avator-item-link{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-detail{
+    padding: 15px 45px;
+    color: #fff;
+    background: #555ca2;
+}
+
+.link-power{
+    padding: 15px 30px;
+    color: #555ca2;
+    border:1px solid #555ca2;
+
+}
+
+
+/* system */
+
+.system{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.system-title{
+    text-align: center;
+  
+}
+.system-title-ch{
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(../img/company03.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.system-title-en{
+    font-size: 16px;
+    color: #f7bb3c;
+    line-height: 48px;
+}
+.system-list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.system-item{
+    flex-basis: 32%;
+    border:1px solid #bfbfbf;
+    margin-bottom: 20px;
+    box-shadow: #bfbfbf 1px 1px 5px;
+}
+
+
+.system-item-desc{
+  box-sizing: border-box;
+  border-bottom:1px solid #bfbfbf;
+}
+.system-item-desc img{
+    width: 100%;
+}
+.system-item-des{
+    padding: 20px 10px 50px;
+    box-sizing: border-box;
+}
+.system-item-des h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.system-item-des .line3{
+    overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 360px;
+    margin-top: 10px;
+}
+
+.system-items a{
+   font-size: 16px;
+   line-height: 30px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   height: 60px;
+   margin-right: 20px;
+}

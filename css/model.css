@@ -1,0 +1,204 @@
+
+
+.model{
+    width: 100%;
+}
+
+.model-content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 128px;
+}
+
+.model-content-title{
+   text-align: center;
+}
+
+.model-content-title-ch{
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(../img/company04.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.model-content-title-en{
+    font-size: 16ppx;
+    line-height: 35px;
+    color: #f7b52b;
+    margin-bottom: 70px;
+    margin-top: 15px;
+    
+}
+
+.model-avator{
+    width: 100%;
+}
+
+.model-avator-list{
+    width: 100%;
+    display: flex;
+
+}
+
+.model-avator-item{
+    padding: 55px 25px 50px;
+    box-sizing: border-box;
+    
+}
+.item01{
+    background-color: #f7b52b;
+    flex-basis: 500px;  
+}
+.item02{
+    background-color: #9584e4;
+    flex-basis: 490px;  
+}
+.item03{
+    background-color: #5d7be7;
+    flex-basis: 710px;  
+}
+.item04{
+    background-color: #409900;
+    flex-basis: 580px;  
+}
+.model-avator-item h1{
+    padding-bottom: 90px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+
+}
+.model-avator-item h1:before{
+
+    content: '';
+    display:inline-block;
+    width: 43px;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.model-avator-item p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+.model-avator-img{
+    flex:1;
+}
+
+.model-avator-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* application */
+.application{
+    width: 100%;
+    background-image: url(../img/application.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 45px 0px;
+}
+
+.application-content{
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+.application-title{
+    color: #fff;
+
+}
+.application-title-ch{
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(../img/company05.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.application-title-en{
+    color: #f7b52b;
+    margin-top: 18px;
+    margin-bottom: 50px;
+}
+.application-content-desc p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+}
+.application-content-desc p:last-child{
+    margin: 45px 0px 60px;
+}
+
+.application-content-link a{
+    display: inline-block;
+    padding: 20px 35px;
+    background: #fff;
+    color: #333333;
+}
+
+/* surveying */
+
+.surveying{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.surveying-title{
+    text-align: center;
+}
+.surveying-title-ch{
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(../img/company04.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.surveying-title-en{
+    color: #333333;
+    margin-top: 18px;
+    margin-bottom: 50px;
+}
+
+.surveying-avator{
+    width: 100%;
+    display: flex;
+
+}
+.surveying-avator-img{
+    flex-basis: 680px;
+    margin-right: 20px;
+}
+.surveying-avator-img img{
+    width: 100%;
+}
+.surveying-avator-desc{
+    flex:1;
+}
+
+.surveying-avator-desc p{
+  line-height: 30px;
+  
+}
+
+.surveying-avator-desc p:first-child{
+    text-indent: 30px;
+}
+.surveying-avator-link{
+    margin-top: 75px;
+}
+
+.surveying-avator-link a{
+    padding: 20px 50px;
+    background: #555ca2;
+    color: #fff;
+    font-size: 16px;
+}
